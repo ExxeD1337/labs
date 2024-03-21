@@ -1,6 +1,9 @@
-.fa-house{
-    font-size: 100px;
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }
-.fa-house:hover{
-    color: burlywood;
+.fa-solid{
+    font-size: 30px;
 }
