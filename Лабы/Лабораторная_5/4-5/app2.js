@@ -15,7 +15,7 @@ const content = (
     </ul>
 );
 
-ReactDOM.render(content, document.getElementById("myDiv"));
+ReactDOM.render(content, document.querySelector("#myDiv"));
 // -----------------------------------------
 
 const animalsInHTML = [
@@ -31,4 +31,4 @@ const App = () => {
       </ul>
     );
 };
-ReactDOM.render(<App />, document.getElementById('anim'));
+ReactDOM.render(<App />, document.querySelector('#anim'));
