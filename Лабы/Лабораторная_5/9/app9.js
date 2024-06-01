@@ -1,7 +1,7 @@
 const alertStyles = {
-    fontSize: "16px",
-    borderRadius:"10px",
-    maxWidth:"500px",
+    fontSize: "13px",
+    borderRadius:"15px",
+    maxWidth:"400px",
 };
 
 const color = {

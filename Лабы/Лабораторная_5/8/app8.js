@@ -8,14 +8,7 @@ const BootstrapCard = props => {
     </div>
   </div>;
 }
-const Alert = (props) => {
-  return <div class="alert alert-danger" role="alert">
-    {props.text}
-  </div>;
-}
-Alert.propTypes = {
-  text: PropTypes.string
-}
+
 BootstrapCard.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
@@ -42,6 +35,5 @@ ReactDOM.render(
       description="React is the most popular rendering library in the world"
       buttonLabel="Go to the official website"
       buttonURL="https://reactjs.org/"
-      image="" />
-    <Alert text="OMG! Something really bad has happened!" />
+      />
   </div>, root);
